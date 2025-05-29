@@ -27,6 +27,7 @@
         <url/>
     </scm>
     <properties>
+        <spring-boot.version>3.0.6</spring-boot.version>
         <java.version>17</java.version>
     </properties>
     <dependencies>
@@ -98,6 +99,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
                 <executions>
                     <execution>
                         <goals>
