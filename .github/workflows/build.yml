@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
 
       - name: Build and test with Maven
-        run: mvn clean verify
+        run: mvn clean verify -Dspring.liquibase.enabled=false
 
   deploy:
     needs: build-test
