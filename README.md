@@ -33,7 +33,6 @@ duplicate requests with the same payload do not create multiple tracking codes.
 
 - [Java 17+](https://jdk.java.net/17/)
 - [Maven](https://maven.apache.org/)
-- [Gradle](https://gradle.org/)
 - [PostgreSQL database](https://www.postgresql.org/)
 - [Redis](https://redis.io/)
 
